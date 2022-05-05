@@ -129,8 +129,8 @@ if st.button('Check Acceptance'):
 
 
     body = str.encode(json.dumps(data))
-    url = 'http://ad30c72c-eefb-48f4-b566-8ba517c786f2.westeurope.azurecontainer.io/score'
-    api_key = 'fgEDfhSmRGdoumUqmye9rFeiuzy8kOex' # Replace this with the API key for the web service
+    url = 'http://1fef65a9-6f8c-445c-b953-c468bac71793.westeurope.azurecontainer.io/score'
+    api_key = 'Eevt90bBE4HN8Wqc0jmjuDWT0cTo1GRr' # Replace this with the API key for the web service
     headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key)}
     
     req = urllib.request.Request(url, body, headers)
