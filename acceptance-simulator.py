@@ -15,18 +15,18 @@ import ssl
 
 #Feature Importance according to each model
 bfq_rule_dict = {
-    'Show Line Item level rank in Lot'                 : 4.09,
-    'Can participants place bids during preview period': 3.40,
-    'Can participants see ranks?'                      : 4.88,
-    'Bidding period'                                   : 2.03,
-    'Specify how lot bidding will begin and end'       : 1.29,
-    'Bid rank that triggers overtime'                  : 1.85,
-    'Enable traffic light bidding'                     : 1.46,
-    'Start overtime if bid submitted within (minutes)' : 1.72,
-    'Overtime period (minutes)'                        : 2.06,
-    'Running time for the first lot'                   : 1.49,
-    'Improve bid amount by'                            : 0.63,
-    'Allow bidding overtime'                           : 0.01
+    'Show Line Item level rank in Lot'                 : 3.77,
+    'Can participants place bids during preview period': 2.36,
+    'Can participants see ranks?'                      : 3.33,
+    'Bidding period'                                   : 1.96,
+    'Specify how lot bidding will begin and end'       : 1.66,
+    'Bid rank that triggers overtime'                  : 1.54,
+    'Enable traffic light bidding'                     : 1.13,
+    'Start overtime if bid submitted within (minutes)' : 1.23,
+    'Overtime period (minutes)'                        : 1.7,
+    'Running time for the first lot'                   : 1.34,
+    'Improve bid amount by'                            : 0.74,
+    'Allow bidding overtime'                           : 0
 }
 bfq_rules = ['Show Line Item level rank in Lot','Can participants place bids during preview period','Can participants see ranks?','Bidding period',
 'Specify how lot bidding will begin and end','Bid rank that triggers overtime','Enable traffic light bidding',
@@ -34,18 +34,18 @@ bfq_rules = ['Show Line Item level rank in Lot','Can participants place bids dur
 'Running time for the first lot','Improve bid amount by','Allow bidding overtime']
 
 nonbfq_rule_dict = {
-    'Show Line Item level rank in Lot'                 : 4.61,
-    'Can participants place bids during preview period': 3.05,
-    'Can participants see ranks?'                      : 3.52,
-    'Bidding period'                                   : 3.05,
-    'Specify how lot bidding will begin and end'       : 2.23,
-    'Bid rank that triggers overtime'                  : 2.69,
-    'Enable traffic light bidding'                     : 1.46,
-    'Start overtime if bid submitted within (minutes)' : 1.35,
-    'Overtime period (minutes)'                        : 1.24,
-    'Running time for the first lot'                   : 1.46,
-    'Improve bid amount by'                            : 0.86,
-    'Allow bidding overtime'                           : 0.11    
+    'Show Line Item level rank in Lot'                 : 6.37,
+    'Can participants place bids during preview period': 2.82,
+    'Can participants see ranks?'                      : 3.64,
+    'Bidding period'                                   : 2.58,
+    'Specify how lot bidding will begin and end'       : 1.62,
+    'Bid rank that triggers overtime'                  : 3.25,
+    'Enable traffic light bidding'                     : 1.17,
+    'Start overtime if bid submitted within (minutes)' : 3.61,
+    'Overtime period (minutes)'                        : 1.19,
+    'Running time for the first lot'                   : 0.86,
+    'Improve bid amount by'                            : 1.63,
+    'Allow bidding overtime'                           : 0.17    
 }
 nonbfq_rules = ['Show Line Item level rank in Lot','Can participants place bids during preview period','Can participants see ranks?','Bidding period',
 'Specify how lot bidding will begin and end','Bid rank that triggers overtime','Enable traffic light bidding',
